@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 const FoodCard = (props) => {
   const {
@@ -13,9 +14,14 @@ const FoodCard = (props) => {
     tags,
     imageUrl,
   } = props.foodItem;
-  console.log(props, "props");
+
+  const navigate = useNavigate();
+
   return (
-    <div className="w-1/4 h-105 bg-gray-100 flex flex-col p-1 rounded-xl m-4">
+    <div
+      className="w-1/4 h-105 bg-gray-100 flex flex-col p-1 rounded-xl m-4"
+      onClick={() => navigate("/desc", { state: props?.foodItem?.cards })}
+    >
       <img
         src={imageUrl}
         className="h-4/6 w-full p-3 object-cover rounded-2xl"

@@ -15,6 +15,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/9ca/c6a1e8d9e70db2764fc378e9428f39ca.jpg?output-format=webp",
     description: "Cottage cheese cooked in creamy tomato gravy.",
+    cards: [
+      {
+        id: 1.1,
+        name: "Classic Butter Paneer",
+        price: 220,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "30 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/df5/1fd1d286f0c277f53f12295334ff2df5.jpeg?output-format=webp",
+        description: "Traditional butter paneer with rich tomato gravy.",
+      },
+      {
+        id: 1.2,
+        name: "Spicy Butter Paneer",
+        price: 230,
+        rating: 4.6,
+        vegetarian: true,
+        deliveryTime: "32 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/2b8/05e0b0f447f02b138ac826382cd642b8.jpg?output-format=webp",
+        description: "A fiery twist to the classic with extra spice.",
+      },
+      {
+        id: 1.3,
+        name: "Paneer Butter Masala with Cashew",
+        price: 240,
+        rating: 4.7,
+        vegetarian: true,
+        deliveryTime: "35 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/6e7/58be3159fbb15ee26a87808fa06916e7.jpeg",
+        description: "Creamier paneer butter masala with cashew paste.",
+      },
+    ],
   },
   {
     id: 2,
@@ -32,6 +67,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/724/770a36c4a49273b067a1670290d2f724.jpg?output-format=webp",
     description: "Aromatic basmati rice with flavorful chicken.",
+    cards: [
+      {
+        id: 2.1,
+        name: "Hyderabadi Dum Biryani",
+        price: 280,
+        rating: 4.8,
+        vegetarian: false,
+        deliveryTime: "40 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/610/8a33e1c9092169611b40c42dd2e52610.jpg",
+        description: "Classic biryani slow-cooked with aromatic spices.",
+      },
+      {
+        id: 2.2,
+        name: "Chicken Biryani with Egg",
+        price: 295,
+        rating: 4.7,
+        vegetarian: false,
+        deliveryTime: "42 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/73a/d965710105d90dda603e86b80c17273a.jpeg?output-format=webp",
+        description: "Same great taste with a boiled egg on top.",
+      },
+      {
+        id: 2.3,
+        name: "Spicy Andhra Chicken Biryani",
+        price: 300,
+        rating: 4.6,
+        vegetarian: false,
+        deliveryTime: "45 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/55b/3e18c2e1293e6079e07894710066555b.jpeg?output-format=webp",
+        description: "Extra spicy biryani with a coastal Andhra touch.",
+      },
+    ],
   },
   {
     id: 3,
@@ -49,6 +119,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/750/cc718e046a814b8f739aa33fe0de3750.jpeg?output-format=webp",
     description: "Stir-fried noodles with veggies & sauces.",
+    cards: [
+      {
+        id: 3.1,
+        name: "Classic Veg Hakka Noodles",
+        price: 140,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "20 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/12c/48d63faac8fa6ad59425494abf03412c.jpeg",
+        description: "Simple and tasty stir-fried vegetable noodles.",
+      },
+      {
+        id: 3.2,
+        name: "Egg Hakka Noodles",
+        price: 160,
+        rating: 4.5,
+        vegetarian: false,
+        deliveryTime: "22 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/f08/4ac1428dcdfc416f0904ce7353d20f08.jpeg",
+        description: "Vegetable noodles with scrambled egg added.",
+      },
+      {
+        id: 3.3,
+        name: "Chicken Hakka Noodles",
+        price: 190,
+        rating: 4.6,
+        vegetarian: false,
+        deliveryTime: "25 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/127/cf2d882f97d0e065f2f9fe49b0158127.png",
+        description: "Stir-fried noodles with chicken and veggies.",
+      },
+    ],
   },
   {
     id: 4,
@@ -66,6 +171,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/960/8adffba55144308bdb04e1c8aabf2960.jpeg?output-format=webp",
     description: "Classic pizza with cheese and basil.",
+    cards: [
+      {
+        id: 4.1,
+        name: "Classic Margherita",
+        price: 200,
+        rating: 4.3,
+        vegetarian: true,
+        deliveryTime: "35 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/1c3/490898fe48e6dc2345afd2ab3b4e91c3.jpeg?output-format=webp",
+        description: "Traditional cheese and tomato pizza.",
+      },
+      {
+        id: 4.2,
+        name: "Margherita with Basil",
+        price: 210,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "36 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/0be/a6670c52ce6d9f247e413d949d9b60be.jpg?output-format=webp",
+        description: "Topped with fresh basil leaves for a fragrant twist.",
+      },
+      {
+        id: 4.3,
+        name: "Margherita with Extra Cheese",
+        price: 220,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "38 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/919/15c3a34b64ec4298f2a0778d1b008919.jpeg?output-format=webp",
+        description: "Cheesier version of the classic favorite.",
+      },
+    ],
   },
   {
     id: 5,
@@ -83,6 +223,42 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/198/e97a813bdb064f84eb07b82c4f3d9198.jpeg",
     description: "Juicy beef patty with melted cheese.",
+    cards: [
+      {
+        id: 5.1,
+        name: "Classic Cheeseburger",
+        price: 180,
+        rating: 4.5,
+        vegetarian: false,
+        deliveryTime: "25 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/01c/717f395302b46ac0427558adcd28801c.jpeg?output-format=webp",
+        description:
+          "Beef patty with cheddar cheese, lettuce, tomato, and sauce.",
+      },
+      {
+        id: 5.2,
+        name: "Double Cheese Burger",
+        price: 220,
+        rating: 4.6,
+        vegetarian: false,
+        deliveryTime: "27 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/444/c8575f7682592d31fe6bfdbdb961b444.jpg?output-format=webp",
+        description: "Double beef patties with extra melted cheese.",
+      },
+      {
+        id: 5.3,
+        name: "Veggie Cheeseburger",
+        price: 170,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "25 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/073/272b1df4554fb89bd6b23c1072259073.png?output-format=webp",
+        description: "Grilled veggie patty with cheese and fresh veggies.",
+      },
+    ],
   },
   {
     id: 6,
@@ -100,6 +276,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/pictures/3/21515843/ac7340ecbaf11b317e6e7f04318fa5c6_o2_featured_v2.jpg?output-format=webp",
     description: "Crispy dosa with spicy potato filling.",
+    cards: [
+      {
+        id: 6.1,
+        name: "Classic Masala Dosa",
+        price: 100,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "20 mins",
+        image:
+          "https://b.zmtcdn.com/data/pictures/4/56804/481238d352425782d6bb7c917f805bd4_o2_featured_v2.jpg",
+        description: "Thin crispy dosa stuffed with spiced potato masala.",
+      },
+      {
+        id: 6.2,
+        name: "Cheese Masala Dosa",
+        price: 120,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "22 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/064/39cbc2f422f49621ba966959af953064.jpg?output-format=webp",
+        description: "Masala dosa topped with melted cheese.",
+      },
+      {
+        id: 6.3,
+        name: "Rava Masala Dosa",
+        price: 110,
+        rating: 4.3,
+        vegetarian: true,
+        deliveryTime: "21 mins",
+        image:
+          "https://b.zmtcdn.com/data/pictures/0/20546780/f546c7c701a5510dc1ae9301584d07a1_o2_featured_v2.jpg",
+        description: "Semolina-based dosa with spiced potato filling.",
+      },
+    ],
   },
   {
     id: 7,
@@ -117,6 +328,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/pictures/4/21657174/181aa939d06ac84720e43670ba6b843e_o2_featured_v2.jpg?output-format=webp",
     description: "Assorted sushi rolls with wasabi & soy.",
+    cards: [
+      {
+        id: 7.1,
+        name: "California Roll",
+        price: 150,
+        rating: 4.6,
+        vegetarian: false,
+        deliveryTime: "50 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/1f0/02490fe2eae0e39b0cfecfa9c1b051f0.jpg?output-format=webp",
+        description: "Crab meat, avocado, and cucumber roll.",
+      },
+      {
+        id: 7.2,
+        name: "Spicy Tuna Roll",
+        price: 170,
+        rating: 4.7,
+        vegetarian: false,
+        deliveryTime: "52 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/579/4ec778764d572efa056e0b54b12c4579.jpeg?output-format=webp",
+        description: "Fresh tuna with spicy mayo.",
+      },
+      {
+        id: 7.3,
+        name: "Vegetarian Sushi",
+        price: 130,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "48 mins",
+        image:
+          "https://b.zmtcdn.com/data/pictures/5/20937615/565115384d8fcd29c4e421fc8a05a050_o2_featured_v2.jpg?output-format=webp",
+        description: "Sushi rolls with cucumber, avocado, and carrots.",
+      },
+    ],
   },
   {
     id: 8,
@@ -134,6 +380,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/4a4/bfd7d923ef594c1484a64be883cf94a4.jpeg?output-format=webp",
     description: "Fluffy bhature with spicy chickpeas.",
+    cards: [
+      {
+        id: 8.1,
+        name: "Classic Chole Bhature",
+        price: 150,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "30 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/aec/5753c38252d5527d8380ecad3573baec.jpeg?output-format=webp",
+        description: "Traditional spicy chickpeas with fluffy bhature.",
+      },
+      {
+        id: 8.2,
+        name: "Punjabi Chole Bhature",
+        price: 160,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "32 mins",
+        image:
+          "https://b.zmtcdn.com/data/pictures/3/21152763/fc5691cb546d221780dd088300f10bc2_o2_featured_v2.jpg?output-format=webp",
+        description: "Punjabi style rich and spicy chole with bhature.",
+      },
+      {
+        id: 8.3,
+        name: "Chole Bhature with Pickle",
+        price: 155,
+        rating: 4.3,
+        vegetarian: true,
+        deliveryTime: "30 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/11b/5f504fed5b958a47b9022a91eed6b11b.jpeg?output-format=webp",
+        description: "Classic chole bhature served with tangy pickle.",
+      },
+    ],
   },
   {
     id: 9,
@@ -151,6 +432,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/928/ba570fc3d9cb24b0efa3db529a405928.jpg?output-format=webp",
     description: "Grilled chicken with Indian spices.",
+    cards: [
+      {
+        id: 9.1,
+        name: "Classic Tandoori Chicken",
+        price: 320,
+        rating: 4.7,
+        vegetarian: false,
+        deliveryTime: "40 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/4c4/b6917ceee74b9f0066abae329c2974c4.jpg",
+        description: "Traditional tandoori chicken cooked in clay oven.",
+      },
+      {
+        id: 9.2,
+        name: "Spicy Tandoori Chicken",
+        price: 330,
+        rating: 4.8,
+        vegetarian: false,
+        deliveryTime: "42 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/2b9/2b927cefcbd3dbff0b938b5e5b0e42b9.jpg?output-format=webp",
+        description: "Extra spicy version for heat lovers.",
+      },
+      {
+        id: 9.3,
+        name: "Tandoori Chicken with Mint Chutney",
+        price: 340,
+        rating: 4.6,
+        vegetarian: false,
+        deliveryTime: "45 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/52d/aedd4718b095c0e7f577bec1e2a5252d.jpeg",
+        description: "Served with refreshing mint chutney.",
+      },
+    ],
   },
   {
     id: 10,
@@ -168,6 +484,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/edd/c006cc6e6f177857ada68510b64e0edd.jpeg?output-format=webp",
     description: "Buttery buns with mashed spicy bhaji.",
+    cards: [
+      {
+        id: 10.1,
+        name: "Classic Pav Bhaji",
+        price: 150,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "25 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/e0a/73b4a754e6032af31c77ed7002cf3e0a.jpeg?output-format=webp",
+        description: "Traditional buttery pav served with spicy bhaji.",
+      },
+      {
+        id: 10.2,
+        name: "Cheese Pav Bhaji",
+        price: 170,
+        rating: 4.6,
+        vegetarian: true,
+        deliveryTime: "27 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/6cf/72c5cadca730ebf3b8cff60f50edf6cf.jpg?output-format=webp",
+        description: "Topped with melted cheese for extra richness.",
+      },
+      {
+        id: 10.3,
+        name: "Jain Pav Bhaji",
+        price: 160,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "28 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/060/df797534a39e0f5ee2121f9feac96060.jpeg?output-format=webp",
+        description: "Prepared without onions and garlic for Jain diet.",
+      },
+    ],
   },
   {
     id: 11,
@@ -185,6 +536,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/5a6/d24bd31f75e1eea236bcf5b1492fa5a6.jpeg?output-format=webp",
     description: "Chickpea fritters wrapped with veggies.",
+    cards: [
+      {
+        id: 11.1,
+        name: "Classic Falafel Wrap",
+        price: 180,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "30 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/073/88fd0b4a389a133218c30877094fc073.jpg?output-format=webp",
+        description: "Traditional falafel with hummus and veggies in pita.",
+      },
+      {
+        id: 11.2,
+        name: "Spicy Falafel Wrap",
+        price: 190,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "32 mins",
+        image:
+          "https://b.zmtcdn.com/data/pictures/2/21848752/b27eeb338b5646e1fb7faa3da09a8e27_o2_featured_v2.jpg",
+        description: "Falafel wrap with spicy sauce and crunchy pickles.",
+      },
+      {
+        id: 11.3,
+        name: "Cheesy Falafel Wrap",
+        price: 200,
+        rating: 4.6,
+        vegetarian: true,
+        deliveryTime: "33 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/a27/6151d5f1c6373a04dfec5f84b36cea27.jpeg",
+        description: "Melted cheese over falafels for an indulgent treat.",
+      },
+    ],
   },
   {
     id: 12,
@@ -202,6 +588,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/71c/328ebbdaae799be576eb3bbd98d2c71c.jpg?output-format=webp",
     description: "Tangy fish curry with steamed rice.",
+    cards: [
+      {
+        id: 12.1,
+        name: "Goan Fish Curry Rice",
+        price: 260,
+        rating: 4.5,
+        vegetarian: false,
+        deliveryTime: "35 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/caa/ea567f683183183b300c3d73b5e0fcaa.png",
+        description: "Goan-style coconut fish curry with rice.",
+      },
+      {
+        id: 12.2,
+        name: "Andhra Fish Curry Rice",
+        price: 270,
+        rating: 4.6,
+        vegetarian: false,
+        deliveryTime: "37 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/f89/52bc3e44adda317d0c637581d6c25f89.jpeg",
+        description: "Hot and tangy Andhra fish curry with rice.",
+      },
+      {
+        id: 12.3,
+        name: "Mangalorean Fish Curry Rice",
+        price: 280,
+        rating: 4.7,
+        vegetarian: false,
+        deliveryTime: "38 mins",
+        image:
+          "https://b.zmtcdn.com/data/pictures/7/51007/3bc12f39564a8b07b734ca08c63b016c_o2_featured_v2.jpg?output-format=webp",
+        description: "Red coconut curry fish served with steamed rice.",
+      },
+    ],
   },
   {
     id: 13,
@@ -219,6 +640,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/8ef/b4c7d0fee01a610c553fcd8aa82198ef.jpeg?output-format=webp",
     description: "Steamed rice cakes with hot sambar.",
+    cards: [
+      {
+        id: 13.1,
+        name: "Classic Idli Sambar",
+        price: 120,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "25 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/09c/056152adef74e253ac4dcc5dc81e009c.jpg?output-format=webp",
+        description: "Traditional fluffy idlis with flavorful sambar.",
+      },
+      {
+        id: 13.2,
+        name: "Mini Idli Sambar",
+        price: 110,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "24 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/5ec/374585a85c6b45d2034a73ff764785ec.jpg?output-format=webp",
+        description: "Bite-sized idlis soaked in hot sambar.",
+      },
+      {
+        id: 13.3,
+        name: "Idli Sambar with Ghee",
+        price: 130,
+        rating: 4.6,
+        vegetarian: true,
+        deliveryTime: "26 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/8ef/b4c7d0fee01a610c553fcd8aa82198ef.jpeg?output-format=webp",
+        description: "Soft idlis served with ghee-topped sambar.",
+      },
+    ],
   },
   {
     id: 14,
@@ -236,6 +692,41 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/792/b797276a11673901a0d14e96629f7792.jpeg?output-format=webp",
     description: "Chinese fried rice with veg manchurian balls.",
+    cards: [
+      {
+        id: 14.1,
+        name: "Veg Fried Rice & Manchurian",
+        price: 180,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "30 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/2b6/9712f7c869e4a369f451db48275492b6.jpeg",
+        description: "Vegetable fried rice served with tangy Manchurian.",
+      },
+      {
+        id: 14.2,
+        name: "Schezwan Fried Rice & Manchurian",
+        price: 190,
+        rating: 4.3,
+        vegetarian: true,
+        deliveryTime: "32 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/a14/d4a85759ef4215233032c1fade007a14.jpeg",
+        description: "Spicy schezwan fried rice with crispy Manchurian.",
+      },
+      {
+        id: 14.3,
+        name: "Triple Fried Rice & Manchurian",
+        price: 200,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "33 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/fbf/ba34171bab144c48f3773bfba7632fbf.jpeg",
+        description: "Fried rice, noodles, and Manchurian - all in one plate.",
+      },
+    ],
   },
   {
     id: 15,
@@ -253,5 +744,353 @@ export const foodData = [
     imageUrl:
       "https://b.zmtcdn.com/data/dish_photos/1f6/fe2d9ed54da88b719cfc93ad2b99e1f6.jpeg?output-format=webp",
     description: "Warm chocolate cake with gooey center.",
+    cards: [
+      {
+        id: 15.1,
+        name: "Classic Lava Cake",
+        price: 160,
+        rating: 4.7,
+        vegetarian: true,
+        deliveryTime: "20 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/87f/2c44e1283b290fd64e08691f3338787f.jpeg",
+        description: "Traditional gooey-centered chocolate lava cake.",
+      },
+      {
+        id: 15.2,
+        name: "Lava Cake with Ice Cream",
+        price: 190,
+        rating: 4.8,
+        vegetarian: true,
+        deliveryTime: "22 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/6d6/fccc484a39d7c8b904b86b28351216d6.jpeg",
+        description: "Warm lava cake served with a scoop of vanilla ice cream.",
+      },
+      {
+        id: 15.3,
+        name: "Hazelnut Lava Cake",
+        price: 180,
+        rating: 4.6,
+        vegetarian: true,
+        deliveryTime: "21 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/b47/ebb7fb0664972a321e632c5b558b6b47.jpg?output-format=webp",
+        description: "Lava cake with a rich hazelnut chocolate center.",
+      },
+    ],
+  },
+  {
+    id: 16,
+    name: "Veg Pulao",
+    category: "North Indian",
+    vegetarian: true,
+    price: 180,
+    discount: 10,
+    finalPrice: 162,
+    rating: 4.2,
+    deliveryTime: "25 mins",
+    isPromoted: false,
+    tags: ["Rice", "Vegetarian", "Pulao"],
+    distance: 3.0,
+    imageUrl:
+      "https://b.zmtcdn.com/data/dish_photos/09f/c8a5acca0623bb40ed847a8811eb009f.jpeg?output-format=webp",
+    description: "Fragrant basmati rice cooked with mixed vegetables.",
+    cards: [
+      {
+        id: 16.1,
+        name: "Classic Veg Pulao",
+        price: 180,
+        rating: 4.2,
+        vegetarian: true,
+        deliveryTime: "25 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/cd3/ddac4a019867cb114b51b8e0e0de4cd3.jpeg?output-format=webp",
+        description: "Simple and aromatic vegetable pulao.",
+      },
+      {
+        id: 16.2,
+        name: "Paneer Veg Pulao",
+        price: 200,
+        rating: 4.3,
+        vegetarian: true,
+        deliveryTime: "28 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/103/4f4121ed4ad60bd40f276e2eaee5f103.jpg",
+        description: "Pulao with chunks of paneer added.",
+      },
+      {
+        id: 16.3,
+        name: "Jeera Veg Pulao",
+        price: 190,
+        rating: 4.1,
+        vegetarian: true,
+        deliveryTime: "27 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/772/e015c181bf775ceb1aa6468040034772.jpg",
+        description: "Veg pulao with the flavor of cumin seeds.",
+      },
+    ],
+  },
+  {
+    id: 17,
+    name: "Butter Chicken",
+    category: "North Indian",
+    vegetarian: false,
+    price: 300,
+    discount: 10,
+    finalPrice: 270,
+    rating: 4.7,
+    deliveryTime: "35 mins",
+    isPromoted: true,
+    tags: ["Chicken", "Butter", "Curry"],
+    distance: 2.8,
+    imageUrl:
+      "https://b.zmtcdn.com/data/dish_photos/a1c/25180fd0ba4c635d0b758f950075ca1c.jpg?output-format=webp",
+    description: "Tender chicken cooked in creamy tomato gravy.",
+    cards: [
+      {
+        id: 17.1,
+        name: "Classic Butter Chicken",
+        price: 300,
+        rating: 4.7,
+        vegetarian: false,
+        deliveryTime: "35 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/be7/85061f7e5d127c1a1be4cc01c4a02be7.jpg",
+        description: "Rich and creamy butter chicken classic.",
+      },
+      {
+        id: 17.2,
+        name: "Butter Chicken with Extra Cream",
+        price: 320,
+        rating: 4.8,
+        vegetarian: false,
+        deliveryTime: "38 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/399/5ab20bd55754a470719d33498df0d399.jpeg",
+        description: "Extra creamy butter chicken for indulgence.",
+      },
+      {
+        id: 17.3,
+        name: "Spicy Butter Chicken",
+        price: 310,
+        rating: 4.6,
+        vegetarian: false,
+        deliveryTime: "36 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/6bf/279eba9c5473e76e8427d6cc9f2b46bf.jpg",
+        description: "Butter chicken with a spicy twist.",
+      },
+    ],
+  },
+  {
+    id: 18,
+    name: "Veggie Burger",
+    category: "Fast Food",
+    vegetarian: true,
+    price: 150,
+    discount: 5,
+    finalPrice: 142,
+    rating: 4.0,
+    deliveryTime: "20 mins",
+    isPromoted: false,
+    tags: ["Burger", "Vegetarian", "Fast Food"],
+    distance: 1.5,
+    imageUrl:
+      "https://b.zmtcdn.com/data/dish_photos/24e/c73b67a44cc2df2b25d86d03c049224e.jpg",
+    description: "Delicious veggie burger with lettuce and tomato.",
+    cards: [
+      {
+        id: 18.1,
+        name: "Classic Veggie Burger",
+        price: 150,
+        rating: 4.0,
+        vegetarian: true,
+        deliveryTime: "20 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/056/d8fc779020b91bc87841b9cb53b52056.png",
+        description: "Simple and tasty veggie burger.",
+      },
+      {
+        id: 18.2,
+        name: "Cheese Veggie Burger",
+        price: 165,
+        rating: 4.2,
+        vegetarian: true,
+        deliveryTime: "22 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/135/5f12913462e850a59cc68fe7f843d135.jpg",
+        description: "Veggie burger topped with melted cheese.",
+      },
+      {
+        id: 18.3,
+        name: "Spicy Veggie Burger",
+        price: 160,
+        rating: 4.1,
+        vegetarian: true,
+        deliveryTime: "21 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/d38/8cb2cacacb5c9e5648ec7436b24b5d38.jpg",
+        description: "Veggie burger with a spicy mayo sauce.",
+      },
+    ],
+  },
+  {
+    id: 19,
+    name: "Chocolate Brownie",
+    category: "Dessert",
+    vegetarian: true,
+    price: 120,
+    discount: 0,
+    finalPrice: 120,
+    rating: 4.9,
+    deliveryTime: "15 mins",
+    isPromoted: false,
+    tags: ["Dessert", "Chocolate", "Brownie"],
+    distance: 1.0,
+    imageUrl:
+      "https://b.zmtcdn.com/data/dish_photos/e2c/c541dabe6d64a55215885de8c3f73e2c.jpeg?output-format=webp",
+    description: "Rich and fudgy chocolate brownie.",
+    cards: [
+      {
+        id: 19.1,
+        name: "Classic Chocolate Brownie",
+        price: 120,
+        rating: 4.9,
+        vegetarian: true,
+        deliveryTime: "15 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/19e/25621e7e7dd538bf7afeb7cdb9fc219e.jpg?output-format=webp",
+        description: "Fudgy and moist chocolate brownie.",
+      },
+      {
+        id: 19.2,
+        name: "Chocolate Brownie with Nuts",
+        price: 140,
+        rating: 5.0,
+        vegetarian: true,
+        deliveryTime: "17 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/208/e48f8c170be8bc7601b87d699ba2d208.jpeg",
+        description: "Brownie with crunchy nuts mixed in.",
+      },
+      {
+        id: 19.3,
+        name: "Chocolate Brownie with Ice Cream",
+        price: 160,
+        rating: 5.0,
+        vegetarian: true,
+        deliveryTime: "20 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/2e5/53ddf5c99a748a5b587c2959de1942e5.jpeg",
+        description: "Brownie served warm with vanilla ice cream.",
+      },
+    ],
+  },
+  {
+    id: 20,
+    name: "Caesar Salad",
+    category: "Salad",
+    vegetarian: true,
+    price: 160,
+    discount: 0,
+    finalPrice: 160,
+    rating: 4.4,
+    deliveryTime: "20 mins",
+    isPromoted: false,
+    tags: ["Salad", "Healthy", "Vegetarian"],
+    distance: 2.5,
+    imageUrl:
+      "https://b.zmtcdn.com/data/dish_photos/628/99d2e6d6794648173ec2773392d93628.jpg?output-format=webp",
+    description: "Fresh romaine lettuce with Caesar dressing.",
+    cards: [
+      {
+        id: 20.1,
+        name: "Classic Caesar Salad",
+        price: 160,
+        rating: 4.4,
+        vegetarian: true,
+        deliveryTime: "20 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/5ad/8496870f99d1d63127fce96c15c2b5ad.jpg?output-format=webp",
+        description: "Crisp lettuce with classic Caesar dressing.",
+      },
+      {
+        id: 20.2,
+        name: "Caesar Salad with Grilled Paneer",
+        price: 190,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "23 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/0ff/e4d872ebe81f715a7f4d3d94d03eb0ff.jpeg?output-format=webp",
+        description: "Caesar salad topped with grilled paneer cubes.",
+      },
+      {
+        id: 20.3,
+        name: "Caesar Salad with Croutons",
+        price: 170,
+        rating: 4.3,
+        vegetarian: true,
+        deliveryTime: "21 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/d5e/e02670feea343890056a147a75c97d5e.jpg?output-format=webp",
+        description: "Classic salad with crunchy garlic croutons.",
+      },
+    ],
+  },
+  {
+    id: 21,
+    name: "Ice Cream Sundae",
+    category: "Desserts",
+    vegetarian: true,
+    price: 130,
+    discount: 5,
+    finalPrice: 123.5,
+    rating: 4.6,
+    deliveryTime: "18 mins",
+    isPromoted: true,
+    tags: ["Ice Cream", "Dessert", "Cold"],
+    distance: 1.8,
+    imageUrl:
+      "https://b.zmtcdn.com/data/pictures/8/18140818/ac55da5bf52bd6e7a9e7eff2873c9d95_o2_featured_v2.jpg",
+    description: "Layered ice cream with syrups, nuts, and toppings.",
+    cards: [
+      {
+        id: 21.1,
+        name: "Chocolate Fudge Sundae",
+        price: 130,
+        rating: 4.6,
+        vegetarian: true,
+        deliveryTime: "18 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/67f/c381f2ba94714f8d83f1432e434f067f.jpg",
+        description: "Chocolate ice cream with fudge sauce and nuts.",
+      },
+      {
+        id: 21.2,
+        name: "Strawberry Sundae",
+        price: 125,
+        rating: 4.5,
+        vegetarian: true,
+        deliveryTime: "17 mins",
+        image:
+          "https://b.zmtcdn.com/data/pictures/5/19255975/eb32469072db1ba1ee3a7e0235a87ccf_o2_featured_v2.jpg",
+        description: "Vanilla ice cream layered with strawberry syrup.",
+      },
+      {
+        id: 21.3,
+        name: "chocolate Delight Sundae",
+        price: 135,
+        rating: 4.7,
+        vegetarian: true,
+        deliveryTime: "19 mins",
+        image:
+          "https://b.zmtcdn.com/data/dish_photos/c37/a9bb3195cf5e1601082295729e79fc37.jpeg",
+        description:
+          "A tropical treat with chocolate chunks and chocolate syrup.",
+      },
+    ],
   },
 ];

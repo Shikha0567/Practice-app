@@ -6,6 +6,9 @@ import Contact from "./pages/Contact";
 import FallbackError from "./pages/FallbackError";
 import PracticeComp from "./pages/PracticeComp";
 import Main from "./FoodApp/pages/Main";
+import ItemVariety from "./FoodApp/pages/ItemVariety";
+import "./App.css";
+import Cart from "./FoodApp/pages/Cart";
 
 const App = () => {
   return (
@@ -44,6 +47,8 @@ const App = () => {
           }
         />
         <Route path="/food-app" element={<Main />} />
+        <Route path="/desc" element={<ItemVariety />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<FallbackError />} />
       </Routes>
     </div>
