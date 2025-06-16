@@ -5,7 +5,6 @@ import ItemDetails from "../components/ItemDetails";
 
 const ItemVariety = () => {
   const location = useLocation();
-  console.log(location.state, "location.state");
   const cards = location.state || [];
   return (
     <div className="flex flex-col">
