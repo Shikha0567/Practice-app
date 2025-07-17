@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 import { Link } from "react-router";
 
 const Header = () => {
@@ -26,10 +26,11 @@ const Header = () => {
           <option>Go To</option>
           <option value="/infinite">Infinite Scroll</option>
           <option value="/language">Lang tranlate</option>
+          <option value="/accordion">Accordion</option>
+          <option value="/comment">Nested Comments</option>
+          <option value="/image-slider">Image Slider</option>
         </select>
-        <Link to="/contact" className="px-3">
-          Contact
-        </Link>
+
         <Link to="/private" className="px-3">
           Private
         </Link>

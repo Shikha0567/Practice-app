@@ -2,18 +2,20 @@ import { Route, Routes } from "react-router";
 import Home from "./pages/Home";
 import MainLayout from "./MainLayout";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 import Login from "./pages/Login";
-import PrivateProfile from "./pages/PrivateProfile";
+import PrivateProfile from "./pages/LLD/ProtectedRoute/PrivateProfile";
 import FallbackError from "./pages/FallbackError";
 import PracticeComp from "./pages/PracticeComp";
 import Main from "./FoodApp/pages/Main";
 import ItemVariety from "./FoodApp/pages/ItemVariety";
 import "./App.css";
 import Cart from "./FoodApp/pages/Cart";
-import ProtectedRoutes from "./pages/ProtectedRoutes";
-import Language from "./pages/Language";
-import InfiniteScroll from "./pages/InfiniteScroll";
+import ProtectedRoutes from "./pages/LLD/ProtectedRoute/ProtectedRoutes";
+import Language from "./pages/LLD/Language";
+import InfiniteScroll from "./pages/LLD/InfiniteScroll/InfiniteScroll";
+import Accordion from "./pages/LLD/Accordion/Accordion";
+import NestedComment from "./pages/LLD/NestedComments/NestedComment";
+import ImageSlider from "./pages/LLD/ImageSlider";
 
 const App = () => {
   return (
@@ -36,14 +38,7 @@ const App = () => {
             </MainLayout>
           }
         />
-        <Route
-          path="/contact"
-          element={
-            <MainLayout>
-              <Contact />
-            </MainLayout>
-          }
-        />
+
         <Route
           path="language"
           element={
@@ -57,6 +52,30 @@ const App = () => {
           element={
             <MainLayout>
               <InfiniteScroll />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/accordion"
+          element={
+            <MainLayout>
+              <Accordion />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/comment"
+          element={
+            <MainLayout>
+              <NestedComment />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/image-slider"
+          element={
+            <MainLayout>
+              <ImageSlider />
             </MainLayout>
           }
         />

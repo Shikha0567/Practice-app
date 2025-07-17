@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, Outlet } from "react-router";
-import Login from "./Login";
+import Login from "../../Login";
 
 const ProtectedRoutes = () => {
   //write logic for authentication inside this wrapper component, it will render the children routes
