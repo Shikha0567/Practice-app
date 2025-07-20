@@ -35,7 +35,6 @@ const InfiniteScroll = () => {
     try {
       const response = await fetch("https://meme-api.com/gimme/20");
       const data = await response.json();
-      console.log(data, "data api");
       setShimmerUI(false);
       setData((prev) => [...prev, ...data.memes]);
     } catch (error) {

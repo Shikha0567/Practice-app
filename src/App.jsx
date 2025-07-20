@@ -16,6 +16,7 @@ import InfiniteScroll from "./pages/LLD/InfiniteScroll/InfiniteScroll";
 import Accordion from "./pages/LLD/Accordion/Accordion";
 import NestedComment from "./pages/LLD/NestedComments/NestedComment";
 import ImageSlider from "./pages/LLD/ImageSlider";
+import Pagination from "./pages/LLD/Pagination/Pagination";
 
 const App = () => {
   return (
@@ -76,6 +77,14 @@ const App = () => {
           element={
             <MainLayout>
               <ImageSlider />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/pagination"
+          element={
+            <MainLayout>
+              <Pagination />
             </MainLayout>
           }
         />

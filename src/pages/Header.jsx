@@ -29,6 +29,7 @@ const Header = () => {
           <option value="/accordion">Accordion</option>
           <option value="/comment">Nested Comments</option>
           <option value="/image-slider">Image Slider</option>
+          <option value="/pagination">Pagination</option>
         </select>
 
         <Link to="/private" className="px-3">
