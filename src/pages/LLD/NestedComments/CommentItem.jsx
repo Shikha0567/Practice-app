@@ -16,6 +16,7 @@ const CommentItem = ({ comment }) => {
     <div className="flex flex-col p-2 m-2 border border-gray-200">
       <div className="flex flex-row items-center">
         <img
+          alt="Comment Avatar"
           src={comment.commentAvatar}
           width={50}
           height={65}

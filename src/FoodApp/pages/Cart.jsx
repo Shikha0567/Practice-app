@@ -22,6 +22,7 @@ const Cart = () => {
             <div className="flex items-center justify-center">
               <div className="w-150 h-150 rounded-2xl">
                 <img
+                  alt="cart"
                   src="src\assets\empty-cart.webp"
                   className="h-3/4 w-full p-3 object-cover rounded-2xl"
                 />

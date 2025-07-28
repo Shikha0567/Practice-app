@@ -8,6 +8,7 @@ const FoodApp = () => {
       <div className="flex h-1/6 bg-gray-200 justify-between items-center px-4 shadow">
         <div>
           <img
+            alt="logo"
             src="src\assets\vector-colorful-logo-design_1002026-45.avif"
             width={100}
             height={100}

@@ -23,6 +23,7 @@ const FoodCard = (props) => {
       onClick={() => navigate("/desc", { state: props?.foodItem?.cards })}
     >
       <img
+        alt="Food Item"
         src={imageUrl}
         className="h-4/6 w-full p-3 object-cover rounded-2xl"
       />

@@ -14,6 +14,7 @@ const Header = () => {
     <div className="h-1/6 flex justify-between items-center border border-gray-100">
       <div onClick={() => navigate("/food-app")}>
         <img
+          alt="logo"
           src="src\assets\food-logo.jpg"
           width={100}
           height={100}

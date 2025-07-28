@@ -19,6 +19,7 @@ const CartItem = (props) => {
       <div className="flex flex-row p-2 m-4">
         <div className="w-40 h-40 rounded-2xl">
           <img
+            alt="Food Item"
             src={image}
             className="h-3/4 w-full p-3 object-cover rounded-2xl"
           />

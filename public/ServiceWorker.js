@@ -1,4 +1,4 @@
-import Header from "../src/pages/Header";
+/* import Header from "../src/pages/Header";
 import Home from "../src/pages/Home";
 
 self.addEventListener("install", (e) => {
@@ -12,3 +12,4 @@ self.addEventListener("install", (e) => {
 self.addEventListener("activate", (e) => {});
 
 self.addEventListener("fetch", (e) => {});
+ */

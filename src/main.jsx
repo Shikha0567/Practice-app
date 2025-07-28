@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router";
 import { Provider } from "react-redux";
 import { mainStore } from "./utilities/appStore.js";
 
-//check if service worker is present in the browser
+/* //check if service worker is present in the browser
 if (navigator.serviceWorker) {
   //register sw
   navigator.serviceWorker
@@ -17,7 +17,7 @@ if (navigator.serviceWorker) {
     .catch((err) => {
       console.log("Service worker registration failed", err);
     });
-}
+} */
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

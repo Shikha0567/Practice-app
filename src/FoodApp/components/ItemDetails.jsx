@@ -17,6 +17,7 @@ const ItemDetails = (props) => {
       <div className="flex flex-row p-2 m-4">
         <div className="w-60 h-60 rounded-2xl relative">
           <img
+            alt="food item"
             src={image}
             className="h-3/4 w-full p-3 object-cover rounded-2xl"
           />

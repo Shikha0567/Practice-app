@@ -17,6 +17,8 @@ import Accordion from "./pages/LLD/Accordion/Accordion";
 import NestedComment from "./pages/LLD/NestedComments/NestedComment";
 import ImageSlider from "./pages/LLD/ImageSlider";
 import Pagination from "./pages/LLD/Pagination/Pagination";
+import MainFolder from "./pages/LLD/NestedFolder/MainFolder";
+import YTLiveChat from "./pages/LLD/YouTube-LiveChat/YTLiveChat";
 
 const App = () => {
   return (
@@ -85,6 +87,22 @@ const App = () => {
           element={
             <MainLayout>
               <Pagination />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/folder"
+          element={
+            <MainLayout>
+              <MainFolder />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/live-chat"
+          element={
+            <MainLayout>
+              <YTLiveChat />
             </MainLayout>
           }
         />
