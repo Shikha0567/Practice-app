@@ -33,6 +33,7 @@ const Header = () => {
           <option value="/pagination">Pagination</option>
           <option value="/folder">Nested Folder</option>
           <option value="/live-chat">YT Live Chat</option>
+          <option value="/auto-complete">Autocomplete Search Bar</option>
         </select>
 
         <Link to="/private" className="px-3">

@@ -19,6 +19,7 @@ import ImageSlider from "./pages/LLD/ImageSlider";
 import Pagination from "./pages/LLD/Pagination/Pagination";
 import MainFolder from "./pages/LLD/NestedFolder/MainFolder";
 import YTLiveChat from "./pages/LLD/YouTube-LiveChat/YTLiveChat";
+import AutoComplete from "./pages/LLD/AutoComplete";
 
 const App = () => {
   return (
@@ -103,6 +104,14 @@ const App = () => {
           element={
             <MainLayout>
               <YTLiveChat />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/auto-complete"
+          element={
+            <MainLayout>
+              <AutoComplete />
             </MainLayout>
           }
         />
